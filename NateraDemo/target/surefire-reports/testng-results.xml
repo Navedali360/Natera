@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All" duration-ms="0" started-at="2017-06-14T11:50:24Z" finished-at="2017-06-14T11:50:24Z">
+    <groups>
+    </groups>
+  </suite> <!-- All -->
+  <suite name="DemoSuite" duration-ms="232587" started-at="2017-06-14T11:46:31Z" finished-at="2017-06-14T11:50:24Z">
+    <groups>
+    </groups>
+    <test name="DemoTest" duration-ms="232587" started-at="2017-06-14T11:46:31Z" finished-at="2017-06-14T11:50:24Z">
+      <class name="com.NateraDemo.scripts.Demo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NateraDemo.scripts.Demo@735f7ae5]" name="setUp" is-config="true" duration-ms="188506" started-at="2017-06-14T17:16:31Z" finished-at="2017-06-14T17:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="demo1()[pri:0, instance:com.NateraDemo.scripts.Demo@735f7ae5]" name="demo1" duration-ms="42931" started-at="2017-06-14T17:19:40Z" finished-at="2017-06-14T17:20:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NateraDemo.scripts.Demo@735f7ae5]" name="tearDown" is-config="true" duration-ms="1132" started-at="2017-06-14T17:20:23Z" finished-at="2017-06-14T17:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.NateraDemo.scripts.Demo -->
+    </test> <!-- DemoTest -->
+  </suite> <!-- DemoSuite -->
+</testng-results>

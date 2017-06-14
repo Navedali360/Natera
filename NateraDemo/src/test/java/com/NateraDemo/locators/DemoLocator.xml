@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locator>
+	<SignInLink><![CDATA[//a[contains(text(),'Sign In')]]]></SignInLink>
+	<UserEmail><![CDATA[//*[@id='patient_portal_user_email']]]></UserEmail>
+	<UserPassword><![CDATA[//*[@id='patient_portal_user_password']]]></UserPassword>
+	<SignInButton><![CDATA[//input[@value='Sign in']]]></SignInButton>
+	<Contact><![CDATA[//a[text()='Contact']]]></Contact>
+	<FirstName><![CDATA[//*[@id='first_name']]]></FirstName>
+	<LastName><![CDATA[//*[@id='last_name']]]></LastName>
+	<Email><![CDATA[//*[@id='email']]]></Email>
+	<Zip><![CDATA[//*[@id='zip']]]></Zip>
+	<Message><![CDATA[//*[@id='questions']]]></Message>
+	<Submit><![CDATA[//input[@value='Submit']]]></Submit>
+	<SuccessMessage><![CDATA[//h2[text()='Thank you for contacting us.']]]></SuccessMessage>
+	<Home><![CDATA[//a[text()='Home']]]></Home>
+	<HiUserName><![CDATA[//ul[@class='nav navbar-nav']/li[3]/a[@role='button']]]></HiUserName>
+	<SignOut><![CDATA[//a[contains(text(),'Sign Out')]]]></SignOut>
+</Locator>
