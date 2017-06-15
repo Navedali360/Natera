@@ -3,7 +3,7 @@
 <suite name="DemoSuite">
   <test name="DemoTest" junit = "false" preserve-order="true">
     <classes>
-      <class name="com.NateraDemo.scripts.InvalidLogin"/>
+      <class name="com.NateraDemo.scripts.LoginToApplication"/>
     </classes>
   </test>
 </suite>
