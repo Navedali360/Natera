@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="All">
 	<suite-files>
-		<suite-file path ="InvalidLogin.xml"/>
+		<suite-file path ="LoginToApplication.xml"/>
 		<suite-file path ="SendMessage.xml"/>
 	</suite-files>
 </suite>

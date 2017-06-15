@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import com.NateraDemo.helper.DemoHelper;
 import com.NateraDemo.util.DriverTestCase;
 import com.NateraDemo.util.PropertyReader;
-public class InvalidLogin extends DriverTestCase
+public class LoginToApplication extends DriverTestCase
 {
 	String email=null;
 	String password=null;
@@ -13,14 +13,16 @@ public class InvalidLogin extends DriverTestCase
 	PropertyReader propertyReader=null;
 
 	@Test
-	public void invalidLogin() throws Exception
+	public void loginToApplication() throws Exception
 	{
 		demoHelper = new DemoHelper(getWebDriver());
 		propertyReader = new PropertyReader();
 		
+		System.out.println("Login To Application with Invalid Credentials");
+		
 		email = propertyReader.readApplicationFile("Email");
 		password = propertyReader.readApplicationFile("Password");
-		System.out.println("INVALID_LOGIN");
+		
 		//Verify Title
 		demoHelper.verifyPageTitle("My Natera - Patient Portal");
 
@@ -36,8 +38,8 @@ public class InvalidLogin extends DriverTestCase
 		//Enter invalid credentials
 		demoHelper.logInToApplication(email,"WrongPassword");
 		
-		//Verify the validation message
-		demoHelper.verifyElementIsAvailable("Alert");
+		//Verify user login successfully
+		demoHelper.verifyUserLoggedIn();
 
 	}
 }
