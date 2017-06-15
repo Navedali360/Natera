@@ -2,6 +2,7 @@
 <suite name="All">
 	<suite-files>
 		<suite-file path ="Demo.xml"/>
+		<suite-file path ="Demo2.xml"/>
 	</suite-files>
 </suite>
 

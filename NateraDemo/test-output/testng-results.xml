@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="83076" started-at="2017-06-14T09:28:04Z" finished-at="2017-06-14T09:29:27Z">
+  <suite name="Default suite" duration-ms="128761" started-at="2017-06-15T04:18:07Z" finished-at="2017-06-15T04:20:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="83076" started-at="2017-06-14T09:28:04Z" finished-at="2017-06-14T09:29:27Z">
+    <test name="Default test" duration-ms="128761" started-at="2017-06-15T04:18:07Z" finished-at="2017-06-15T04:20:16Z">
       <class name="com.NateraDemo.scripts.Demo">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NateraDemo.scripts.Demo@59fa1d9b]" name="setUp" is-config="true" duration-ms="41927" started-at="2017-06-14T14:58:04Z" finished-at="2017-06-14T14:58:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NateraDemo.scripts.Demo@46d56d67]" name="setUp" is-config="true" duration-ms="80089" started-at="2017-06-15T09:48:07Z" finished-at="2017-06-15T09:49:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="demo1()[pri:0, instance:com.NateraDemo.scripts.Demo@59fa1d9b]" name="demo1" duration-ms="39752" started-at="2017-06-14T14:58:46Z" finished-at="2017-06-14T14:59:25Z">
+        <test-method status="PASS" signature="demo1()[pri:0, instance:com.NateraDemo.scripts.Demo@46d56d67]" name="demo1" duration-ms="47315" started-at="2017-06-15T09:49:27Z" finished-at="2017-06-15T09:50:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NateraDemo.scripts.Demo@59fa1d9b]" name="tearDown" is-config="true" duration-ms="1379" started-at="2017-06-14T14:59:25Z" finished-at="2017-06-14T14:59:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NateraDemo.scripts.Demo@46d56d67]" name="tearDown" is-config="true" duration-ms="1329" started-at="2017-06-15T09:50:14Z" finished-at="2017-06-15T09:50:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
