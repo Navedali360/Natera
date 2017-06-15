@@ -1,8 +1,10 @@
+com\NateraDemo\config\Application.properties
+com\NateraDemo\scripts\LoginToApplication.class
 com\NateraDemo\util\DriverTestCase.class
 com\NateraDemo\scripts\SendMessage.class
 com\NateraDemo\helper\DemoHelper.class
+com\NateraDemo\locators\DemoLocator.xml
 com\NateraDemo\util\DriverTestCase$DriverType.class
-com\NateraDemo\scripts\InvalidLogin.class
 com\NateraDemo\util\DriverHelper.class
 com\NateraDemo\locators\LocatorReader.class
 com\NateraDemo\util\PropertyReader.class

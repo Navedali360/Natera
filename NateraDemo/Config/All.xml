@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="All">
-	<suite-files>
-		<suite-file path ="LoginToApplication.xml"/>
-		<suite-file path ="SendMessage.xml"/>
-	</suite-files>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoSuite">
+  <test name="DemoTest" junit = "false" preserve-order="true">
+    <classes>
+      <class name="com.NateraDemo.scripts.LoginToApplication"/>
+      <class name="com.NateraDemo.scripts.SendMessage"/>
+    </classes>
+  </test>
 </suite>
-
