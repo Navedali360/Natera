@@ -1,29 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="All" duration-ms="0" started-at="2017-06-14T11:50:24Z" finished-at="2017-06-14T11:50:24Z">
+  <suite name="All" duration-ms="0" started-at="2017-06-15T09:18:38Z" finished-at="2017-06-15T09:18:38Z">
     <groups>
     </groups>
   </suite> <!-- All -->
-  <suite name="DemoSuite" duration-ms="232587" started-at="2017-06-14T11:46:31Z" finished-at="2017-06-14T11:50:24Z">
+  <suite name="DemoSuite" duration-ms="57704" started-at="2017-06-15T09:17:40Z" finished-at="2017-06-15T09:18:38Z">
     <groups>
     </groups>
-    <test name="DemoTest" duration-ms="232587" started-at="2017-06-14T11:46:31Z" finished-at="2017-06-14T11:50:24Z">
-      <class name="com.NateraDemo.scripts.Demo">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NateraDemo.scripts.Demo@735f7ae5]" name="setUp" is-config="true" duration-ms="188506" started-at="2017-06-14T17:16:31Z" finished-at="2017-06-14T17:19:40Z">
+    <test name="DemoTest" duration-ms="57704" started-at="2017-06-15T09:17:40Z" finished-at="2017-06-15T09:18:38Z">
+      <class name="com.NateraDemo.scripts.SendMessage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NateraDemo.scripts.SendMessage@531be3c5]" name="setUp" is-config="true" duration-ms="16762" started-at="2017-06-15T14:46:38Z" finished-at="2017-06-15T14:46:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="demo1()[pri:0, instance:com.NateraDemo.scripts.Demo@735f7ae5]" name="demo1" duration-ms="42931" started-at="2017-06-14T17:19:40Z" finished-at="2017-06-14T17:20:23Z">
+        <test-method status="PASS" signature="sendMessage()[pri:0, instance:com.NateraDemo.scripts.SendMessage@531be3c5]" name="sendMessage" duration-ms="43315" started-at="2017-06-15T14:46:55Z" finished-at="2017-06-15T14:47:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NateraDemo.scripts.Demo@735f7ae5]" name="tearDown" is-config="true" duration-ms="1132" started-at="2017-06-14T17:20:23Z" finished-at="2017-06-14T17:20:24Z">
+        </test-method> <!-- sendMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NateraDemo.scripts.SendMessage@531be3c5]" name="tearDown" is-config="true" duration-ms="1626" started-at="2017-06-15T14:47:38Z" finished-at="2017-06-15T14:47:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.NateraDemo.scripts.Demo -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NateraDemo.scripts.SendMessage@531be3c5]" name="setUp" is-config="true" duration-ms="12496" started-at="2017-06-15T14:47:40Z" finished-at="2017-06-15T14:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sendMessage()[pri:0, instance:com.NateraDemo.scripts.SendMessage@531be3c5]" name="sendMessage" duration-ms="44281" started-at="2017-06-15T14:47:53Z" finished-at="2017-06-15T14:48:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.NateraDemo.scripts.SendMessage@531be3c5]" name="tearDown" is-config="true" duration-ms="926" started-at="2017-06-15T14:48:37Z" finished-at="2017-06-15T14:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.NateraDemo.scripts.SendMessage -->
     </test> <!-- DemoTest -->
   </suite> <!-- DemoSuite -->
 </testng-results>

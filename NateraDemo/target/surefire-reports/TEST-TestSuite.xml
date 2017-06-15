@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="233.305" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="120.359" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="c:\java\JDK\jre\bin"/>
     <property name="java.vm.version" value="25.112-b15"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="F:\Self_Learn\JAVA\Eclipse_Neon_Workspace\NateraDemo"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\Self_Learn\JAVA\Eclipse_Neon_Workspace\Natera\NateraDemo"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="F:\Self_Learn\JAVA\Eclipse_Neon_Workspace\NateraDemo"/>
+    <property name="user.dir" value="F:\Self_Learn\JAVA\Eclipse_Neon_Workspace\Natera\NateraDemo"/>
     <property name="java.runtime.version" value="1.8.0_112-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="c:\java\JDK\jre\lib\endorsed"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 7"/>
     <property name="classworlds.conf" value="H:\Software\Software\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="c:\java\JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Dell\DW WLAN Card;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Java;C:\Program Files\Git\cmd;C:\Program Files\SmartBear\ReadyAPI-1.9.0\bin;C:\Java\JRE\bin;C:\Java\JDK\bin;H:\Software\apache-easyant-core-0.9-incubating-bin\easyant-core-0.9\bin;H:\Software\Android SDK\Android SDK\platform-tools;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Node_JS;C:\Program Files\Node_JS\;C:\Python27;C:\Python27\Scripts;C:\Python27\Lib\site-packages;C:\Program Files\PuTTY\;F:\chromedriver_win32 (1);C:\Program Files\PuTTY;C:\Program Files (x86)\Skype\Phone\;H:\Software\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;H:\Software\Software\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;F:\Projects\POC\Arilyn\demo\Arilyn_POC\lib\libs;C:\Users\admin\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="c:\java\JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Dell\DW WLAN Card;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Java;C:\Program Files\Git\cmd;C:\Program Files\SmartBear\ReadyAPI-1.9.0\bin;C:\Java\JRE\bin;C:\Java\JDK\bin;H:\Software\apache-easyant-core-0.9-incubating-bin\easyant-core-0.9\bin;H:\Software\Android SDK\Android SDK\platform-tools;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Node_JS;C:\Program Files\Node_JS\;C:\Python27;C:\Python27\Scripts;C:\Python27\Lib\site-packages;C:\Program Files\PuTTY\;F:\chromedriver_win32 (1);C:\Program Files\PuTTY;C:\Program Files (x86)\Skype\Phone\;H:\Software\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\bin;H:\Software\Software\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;F:\Projects\POC\Arilyn\demo\Arilyn_POC\lib\libs;C:\Program Files\Node_JS;C:\Users\admin\AppData\Roaming\npm;F:\chromedriver_win32 (1);."/>
     <property name="maven.conf" value="H:\Software\Software\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -65,5 +65,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="demo1" classname="com.NateraDemo.scripts.Demo" time="42.931"/>
+  <testcase name="sendMessage" classname="com.NateraDemo.scripts.SendMessage" time="43.316"/>
+  <testcase name="sendMessage" classname="com.NateraDemo.scripts.SendMessage" time="44.273"/>
 </testsuite>

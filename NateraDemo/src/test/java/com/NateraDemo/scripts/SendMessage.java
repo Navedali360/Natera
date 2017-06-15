@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import com.NateraDemo.helper.DemoHelper;
 import com.NateraDemo.util.DriverTestCase;
 import com.NateraDemo.util.PropertyReader;
-public class Demo2 extends DriverTestCase
+public class SendMessage extends DriverTestCase
 {
 	String email=null;
 	String password=null;
@@ -13,17 +13,17 @@ public class Demo2 extends DriverTestCase
 	PropertyReader propertyReader=null;
 
 	@Test
-	public void demo1() throws Exception
+	public void sendMessage() throws Exception
 	{
 		demoHelper = new DemoHelper(getWebDriver());
 		propertyReader = new PropertyReader();
 		
 		email = propertyReader.readApplicationFile("Email");
 		password = propertyReader.readApplicationFile("Password");
-		System.out.println("SECOND_CLASS");		
+		System.out.println("SEND_MESSAGE");
 		//Verify Title
 		demoHelper.verifyPageTitle("My Natera - Patient Portal");
-		
+
 		//Verify Sign In Link
 		demoHelper.verifyElementIsAvailable("SignInLink");
 

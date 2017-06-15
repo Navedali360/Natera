@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.NateraDemo.scripts.Demo">
+      <class name="com.NateraDemo.scripts.InvalidLogin">
         <methods>
+          <include name="invalidLogin"/>
           <include name="tearDown"/>
-          <include name="demo1"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.NateraDemo.scripts.Demo -->
+      </class> <!-- com.NateraDemo.scripts.InvalidLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

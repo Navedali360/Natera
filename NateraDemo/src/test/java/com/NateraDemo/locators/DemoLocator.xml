@@ -15,4 +15,5 @@
 	<Home><![CDATA[//a[text()='Home']]]></Home>
 	<HiUserName><![CDATA[//ul[@class='nav navbar-nav']/li[3]/a[@role='button']]]></HiUserName>
 	<SignOut><![CDATA[//a[contains(text(),'Sign Out')]]]></SignOut>
+	<Alert><![CDATA[//div[@role='alert']]]></Alert>
 </Locator>
