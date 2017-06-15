@@ -11,7 +11,9 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 
 import com.NateraDemo.util.PropertyReader;
@@ -25,7 +27,7 @@ public class DriverTestCase
 	public String browser=null;
 	public String ApplicationURL=null;
 
-	@BeforeTest
+	@BeforeClass
 	public void setUp() throws Exception
 	{
 		PropertyReader propertyReader = new PropertyReader();
@@ -88,7 +90,7 @@ public class DriverTestCase
 		driver.get(ApplicationURL);
 	}
 
-	@AfterTest
+	@AfterClass
 	public void tearDown()
 	{
 		getWebDriver().quit();

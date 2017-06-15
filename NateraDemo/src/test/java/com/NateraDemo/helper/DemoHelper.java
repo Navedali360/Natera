@@ -27,16 +27,16 @@ public class DemoHelper extends DriverHelper
 	public void click(String element)
 	{
 		locator = locatorReader.getLocator(element);
-		waitForElementPresent(locator, 50);
-		waitForElementDisplayed(locator, 50);
+		waitForElementPresent(locator, 30);
+		waitForElementDisplayed(locator, 30);
 		clickOn(locator);
 	}
 	
 	public void enterText(String field, String text)
 	{
 		locator = locatorReader.getLocator(field);
-		waitForElementPresent(locator, 50);
-		waitForElementDisplayed(locator, 50);
+		waitForElementPresent(locator, 30);
+		waitForElementDisplayed(locator, 30);
 		sendKeys(locator, text);
 	}
 	
@@ -56,24 +56,24 @@ public class DemoHelper extends DriverHelper
 	public void verifyUserLoggedIn()
 	{
 		locator = locatorReader.getLocator("HiUserName");
-		waitForElementPresent(locator, 50);
-		waitForElementDisplayed(locator, 50);
+		waitForElementPresent(locator, 20);
+		waitForElementDisplayed(locator, 20);
 		verifyElementIsAvailable("HiUserName");
 	}
 	
 	public void verifyUserLoggedOut()
 	{
 		locator = locatorReader.getLocator("SignInLink");
-		waitForElementPresent(locator, 50);
-		waitForElementDisplayed(locator, 50);
+		waitForElementPresent(locator, 20);
+		waitForElementDisplayed(locator, 20);
 		verifyElementIsAvailable("SignInLink");
 	}
 	
 	public void verifyMessageSent()
 	{
 		locator = locatorReader.getLocator("SuccessMessage");
-		waitForElementPresent(locator, 50);
-		waitForElementDisplayed(locator, 50);
+		waitForElementPresent(locator, 30);
+		waitForElementDisplayed(locator, 30);
 		verifyElementIsAvailable("SuccessMessage");
 	}
 }
